@@ -11,4 +11,4 @@ This project is a part of Getting and Cleaning the data courserwork. The R scrip
 * Creates a tidy dataset using *melt* and *decast*. The tidy dataset contains the average of each variable for each activity and each subject.
 
 
-Final result = tidy.csv
+Final result = tidy.txt
