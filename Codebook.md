@@ -4,13 +4,21 @@ This code book summarizes the final data fields in *tidy.txt*.
 
 ##Dataset: 
 
-This data is obtained by reading and merging training and test data. This independent data set is the average of each variable for each subject and activiy. THis was achieved using "Melt" and "Recast" functions.
+This data is obtained by reading and merging training and test data. This independent data set is the average of each variable for each subject and activiy. This was achieved using "Melt" and "Recast" functions. The tidy data has 81 columns wherein the fist two columns are identifiers and the remaining 79 are measurements of different kind.
 
 ##Identifiers
 
 *subject* - The id of the test subject.
 
 *activity* - The type of activity when corresponding measurements were taken. 
+
+##Activity labels
+*WALKING (1)* : subject was walking during the test          
+*WALKING UPSTAIRS(2)* : subject was walking up a staircase during the test   
+*WALKING DOWNSTAIRS(3)* : subject was walking downstairs during the test 
+*SITTING(4)* : subject was sitting the test   
+*STANDING(5)* : subject was standing the test          
+*LAYING(6)* : subject was laying during the test           
 
 ##Measurements 
 
@@ -95,13 +103,6 @@ This data is obtained by reading and merging training and test data. This indepe
 *	fBodyBodyGyroJerkMagMeanFreq
 
 
-##Activity labels
-*WALKING (1)* : subject was walking during the test          
-*WALKING UPSTAIRS(2)* : subject was walking up a staircase during the test   
-*WALKING DOWNSTAIRS(3)* : subject was walking downstairs during the test 
-*SITTING(4)* : subject was sitting the test   
-*STANDING(5)* : subject was standing the test          
-*LAYING(6)* : subject was laying during the test           
 
 
 
