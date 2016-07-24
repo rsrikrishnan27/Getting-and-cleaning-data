@@ -9,7 +9,7 @@ This data is obtained by reading and merging training and test data. This indepe
 ##Identifiers
 
 *subject* - The id of the test subject
-*activity* - The type of activity performed when the corresponding measurements were taken.
+*activity* - The type of activity when corresponding measurements were taken. 
 
 ##Measurements 
 
