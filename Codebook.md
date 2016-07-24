@@ -2,10 +2,14 @@
 
 This code book summarizes the final data fields in *tidy.txt*. 
 
+##Dataset: 
+
+This data is obtained by reading and merging training and test data. This independent data set is the average of each variable for each subject and activiy. THis was achieved using "Melt" and "Recast" functions.
+
 ##Identifiers
 
 *subject* - The id of the test subject
-*activity* - The type of activity performed when the corresponding measurements were taken
+*activity* - The type of activity performed when the corresponding measurements were taken.
 
 ##Measurements 
 
